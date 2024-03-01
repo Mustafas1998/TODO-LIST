@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(229, 233, 248);
+    
+}
+
+header{
+    color: rgb(28, 107, 233);
+    font-size: 1.5rem;
+}
+
+.container{
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .container {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+}
